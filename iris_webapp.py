@@ -5,7 +5,7 @@ import pickle
 
 lin_model=pickle.load(open('lin_model.pkl','rb'))
 log_model=pickle.load(open('log_model.pkl','rb'))
-svm=pickle.load(open('svm.pkl','rb'))
+svm=pickle.load(open('svm_model.pkl','rb'))
 
 def classify(num):
     if num<0.5:
